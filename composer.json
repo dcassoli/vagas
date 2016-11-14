@@ -1,0 +1,12 @@
+{
+	"require" : {
+		"silex/silex" : "dev-master",
+        "guzzle/guzzle": "~3.7",
+		"guzzlehttp/guzzle": "6.1"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"App\\" : "src"
+		}
+	}
+}
